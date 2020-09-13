@@ -1,10 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class LevelGenerator : MonoBehaviour
 {
 
+    public GameObject mazeEmpty;
+    public GameObject PacManSpriteRight;
+    public GameObject PacManSpriteLeft;
+
+    
     int[,] levelMap =
     {
         {1,2,2,2,2,2,2,2,2,2,2,2,2,7},
@@ -24,23 +30,30 @@ public class LevelGenerator : MonoBehaviour
         {0,0,0,0,0,0,5,0,0,0,4,0,0,0},
     }; 
 
-    int rows = 14;
-    int cols = 15;
+
 
 
     // Start is called before the first frame update
     void Start()
     {
-        // for (int i = 0; i < rows; i++) {
-        //     for (int j = 0; j < cols; j++) {
-        //         if (levelMap[i,j] == 1) {
-        //             Debug.Log("FOUND");
-        //         }
-        //     }
-        // }
-        for (int i = 0; i < levelMap.GetLength(0); i++) {
-            Debug.Log(levelMap[i,0] + " " + levelMap[i,1]);
+        
+        Instantiate(mazeEmpty);
+
+        int rowLength = levelMap.GetLength(0);
+        int colLength = levelMap.GetLength(1);
+        string arrayString = "";
+        
+        for (int i = 0; i < rowLength; i++) {
+
+            for (int j = 0; j < colLength; j++) {
+
+                arrayString += string.Format("{0} ", levelMap[i, j]);
+            }
+
+            arrayString += System.Environment.NewLine + System.Environment.NewLine;
         }
+        Debug.Log(arrayString);
+
     }
 
     // Update is called once per frame

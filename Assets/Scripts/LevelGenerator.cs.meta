@@ -3,7 +3,11 @@ guid: 0fb5f0ba53279fa42af3a106ff2277f4
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - mazeEmpty: {fileID: 8432606315969029670, guid: a2d42054313409343a7328381f4565f6,
+      type: 3}
+  - PacManSpriteRight: {instanceID: 0}
+  - PacManSpriteLeft: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
