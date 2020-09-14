@@ -6,9 +6,13 @@ using System;
 public class LevelGenerator : MonoBehaviour
 {
 
-    public GameObject mazeEmpty;
-    public GameObject PacManSpriteRight;
-    public GameObject PacManSpriteLeft;
+    //public GameObject mazeEmpty;
+    //public GameObject PacManSpriteRight;
+    // public GameObject PacManSpriteLeft;
+    public GameObject MazeLeftCorner;
+    // public GameObject MazeRightCorner;
+    // public GameObject MazeBottomLeftCorner;
+    // public GameObject MazeBottomRightCorner;
 
     
     int[,] levelMap =
@@ -37,7 +41,11 @@ public class LevelGenerator : MonoBehaviour
     void Start()
     {
         
-        Instantiate(mazeEmpty);
+        Instantiate(MazeLeftCorner);
+        //Instantiate(PacManSpriteRight);
+
+
+
 
         int rowLength = levelMap.GetLength(0);
         int colLength = levelMap.GetLength(1);
@@ -47,12 +55,15 @@ public class LevelGenerator : MonoBehaviour
 
             for (int j = 0; j < colLength; j++) {
 
-                arrayString += string.Format("{0} ", levelMap[i, j]);
+                // arrayString += string.Format("{0} ", levelMap[i, j]);
+                if (levelMap[i,j] == 1) {
+                    Instantiate(MazeLeftCorner, transform.position, transform.rotation);
+                }
             }
 
-            arrayString += System.Environment.NewLine + System.Environment.NewLine;
+            // arrayString += System.Environment.NewLine + System.Environment.NewLine;
         }
-        Debug.Log(arrayString);
+        //Debug.Log(arrayString);
 
     }
 
