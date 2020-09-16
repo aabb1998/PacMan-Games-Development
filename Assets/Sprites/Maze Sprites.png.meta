@@ -50,30 +50,6 @@ TextureImporter:
   - first:
       213: -472078068084321508
     second: Maze Sprites_15
-  - first:
-      213: 8268341900865837664
-    second: Maze Sprites_16
-  - first:
-      213: -1295562686590519934
-    second: Maze Sprites_17
-  - first:
-      213: -7389640021314903347
-    second: Maze Sprites_18
-  - first:
-      213: 7052886671430292161
-    second: Maze Sprites_19
-  - first:
-      213: 1085112671245292812
-    second: Maze Sprites_20
-  - first:
-      213: 4841696751000055901
-    second: Maze Sprites_21
-  - first:
-      213: 5786449253970936272
-    second: Maze Sprites_22
-  - first:
-      213: -6412287744813155162
-    second: Maze Sprites_23
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -103,7 +79,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -118,7 +94,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 18, z: 60, w: 46}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1

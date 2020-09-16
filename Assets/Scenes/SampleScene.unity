@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -147,6 +148,42 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb5f0ba53279fa42af3a106ff2277f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mazeEmpty: {fileID: 0}
+  PacManSpriteRight: {fileID: 0}
+  PacManSpriteLeft: {fileID: 0}
+  MazeLeftCorner: {fileID: 4164805084070906831, guid: 60a34a5077ccf85449d5d31cd3e31642,
+    type: 3}
+  MazeRightCorner: {fileID: 1706104436417539637, guid: 49c032c4c7d6bec4287b7b4572e10203,
+    type: 3}
+  MazeBottomLeftCorner: {fileID: 8094672651112669074, guid: c4ed22950b6d3da458e3230052b076fe,
+    type: 3}
+  MazeBottomRightCorner: {fileID: 6964519625064232608, guid: d598f45ff49e3ac45bc6ded15350ab9a,
+    type: 3}
+  PowerPellet: {fileID: 9171766488912800085, guid: 4c2ed3d0592b79849bc23da5ae8d40d3,
+    type: 3}
+  standardPellet: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+    type: 3}
+  insideCorner: {fileID: 2327260107175205430, guid: 02d9524c81045e24dac9d921dcb9c139,
+    type: 3}
+  outsideWall: {fileID: 1706210989910299163, guid: 635494fa0a7f15d41af24ef5d851daa8,
+    type: 3}
+  insideWall: {fileID: 9121872552983972860, guid: e67e49cb47715d640a21a9f8e05a19ae,
+    type: 3}
+  tJunction: {fileID: 7950352868465760985, guid: 48213cb5f2befc3478d2b154034c5ac4,
+    type: 3}
+  mainCam: {fileID: 519420031}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -198,8 +235,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.5, y: 16, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 20, y: 20, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
