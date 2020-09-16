@@ -163,23 +163,23 @@ MonoBehaviour:
   mazeEmpty: {fileID: 0}
   PacManSpriteRight: {fileID: 0}
   PacManSpriteLeft: {fileID: 0}
-  MazeLeftCorner: {fileID: 4164805084070906831, guid: 60a34a5077ccf85449d5d31cd3e31642,
+  MazeLeftCorner: {fileID: 6078410067136089134, guid: 492d9a013eff87047bcc637dc708af4d,
     type: 3}
-  MazeRightCorner: {fileID: 1706104436417539637, guid: 49c032c4c7d6bec4287b7b4572e10203,
+  MazeRightCorner: {fileID: 6078410067136089134, guid: 492d9a013eff87047bcc637dc708af4d,
     type: 3}
-  MazeBottomLeftCorner: {fileID: 8094672651112669074, guid: c4ed22950b6d3da458e3230052b076fe,
+  MazeBottomLeftCorner: {fileID: 6078410067136089134, guid: 492d9a013eff87047bcc637dc708af4d,
     type: 3}
-  MazeBottomRightCorner: {fileID: 6964519625064232608, guid: d598f45ff49e3ac45bc6ded15350ab9a,
+  MazeBottomRightCorner: {fileID: 6078410067136089134, guid: 492d9a013eff87047bcc637dc708af4d,
     type: 3}
   PowerPellet: {fileID: 9171766488912800085, guid: 4c2ed3d0592b79849bc23da5ae8d40d3,
     type: 3}
   standardPellet: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
     type: 3}
-  insideCorner: {fileID: 2327260107175205430, guid: 02d9524c81045e24dac9d921dcb9c139,
+  insideCorner: {fileID: 7198936722149416401, guid: 4e16448aeae0f464cae64b46a037cc5f,
     type: 3}
-  outsideWall: {fileID: 1706210989910299163, guid: 635494fa0a7f15d41af24ef5d851daa8,
+  outsideWall: {fileID: 8240128468852019007, guid: c764d6db711cd1642ab079f5812ceec5,
     type: 3}
-  insideWall: {fileID: 9121872552983972860, guid: e67e49cb47715d640a21a9f8e05a19ae,
+  insideWall: {fileID: 2268252487367350494, guid: cf9d61b4d16567c49a15255e517a9ec5,
     type: 3}
   tJunction: {fileID: 7950352868465760985, guid: 48213cb5f2befc3478d2b154034c5ac4,
     type: 3}
