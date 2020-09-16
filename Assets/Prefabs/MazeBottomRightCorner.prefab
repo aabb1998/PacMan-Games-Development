@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 6964519625064232608}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.047593, y: -0.6401895, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -99,6 +99,17 @@ MonoBehaviour:
   mazeEmpty: {fileID: 0}
   PacManSpriteRight: {fileID: 0}
   PacManSpriteLeft: {fileID: 0}
+  MazeLeftCorner: {fileID: 0}
+  MazeRightCorner: {fileID: 0}
+  MazeBottomLeftCorner: {fileID: 0}
+  MazeBottomRightCorner: {fileID: 0}
+  PowerPellet: {fileID: 0}
+  standardPellet: {fileID: 0}
+  insideCorner: {fileID: 0}
+  outsideWall: {fileID: 0}
+  insideWall: {fileID: 0}
+  tJunction: {fileID: 0}
+  mainCam: {fileID: 0}
 --- !u!114 &6964519625064232611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,3 +125,14 @@ MonoBehaviour:
   mazeEmpty: {fileID: 0}
   PacManSpriteRight: {fileID: 0}
   PacManSpriteLeft: {fileID: 0}
+  MazeLeftCorner: {fileID: 0}
+  MazeRightCorner: {fileID: 0}
+  MazeBottomLeftCorner: {fileID: 0}
+  MazeBottomRightCorner: {fileID: 0}
+  PowerPellet: {fileID: 0}
+  standardPellet: {fileID: 0}
+  insideCorner: {fileID: 0}
+  outsideWall: {fileID: 0}
+  insideWall: {fileID: 0}
+  tJunction: {fileID: 0}
+  mainCam: {fileID: 0}
