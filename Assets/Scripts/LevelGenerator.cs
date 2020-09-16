@@ -14,6 +14,9 @@ public class LevelGenerator : MonoBehaviour
     // public GameObject MazeBottomLeftCorner;
     // public GameObject MazeBottomRightCorner;
 
+    public Camera mainCam;
+
+
     
     int[,] levelMap =
     {
@@ -40,30 +43,57 @@ public class LevelGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        Bounds bound = MazeLeftCorner.GetComponent<Renderer>().bounds;
+        mainCam.orthographicSize = 18 * bound.size.y * 0.5f;
+
+         int rowLength = levelMap.GetLength(0);
+         int colLength = levelMap.GetLength(1);
+
+        Vector3 pos = mainCam.ScreenToWorldPoint(Vector3.zero);
+        pos = new Vector3( pos.x + bound.extents.x, pos.y + bound.extents.y, 0);
+        Vector3 nextPosition = pos;
+
         
-        Instantiate(MazeLeftCorner);
-        //Instantiate(PacManSpriteRight);
 
-
-
-
-        int rowLength = levelMap.GetLength(0);
-        int colLength = levelMap.GetLength(1);
-        string arrayString = "";
-        
         for (int i = 0; i < rowLength; i++) {
 
             for (int j = 0; j < colLength; j++) {
 
                 // arrayString += string.Format("{0} ", levelMap[i, j]);
                 if (levelMap[i,j] == 1) {
-                    Instantiate(MazeLeftCorner, transform.position, transform.rotation);
+                    GameObject a = Instantiate(MazeLeftCorner, new Vector3(nextPosition.x,nextPosition.y,0), Quaternion.identity);
+                    nextPosition = new Vector3(pos.x+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.x)*i, pos.y+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.y)*j,0);
                 }
             }
 
             // arrayString += System.Environment.NewLine + System.Environment.NewLine;
         }
         //Debug.Log(arrayString);
+        
+        // Instantiate(MazeLeftCorner);
+        // //Instantiate(PacManSpriteRight);
+
+
+
+
+        //  int rowLength = levelMap.GetLength(0);
+        //  int colLength = levelMap.GetLength(1);
+        // string arrayString = "";
+        
+        // for (int i = 0; i < rowLength; i++) {
+
+        //     for (int j = 0; j < colLength; j++) {
+
+        //         // arrayString += string.Format("{0} ", levelMap[i, j]);
+        //         if (levelMap[i,j] == 1) {
+        //             Instantiate(MazeLeftCorner, transform.position, transform.rotation);
+        //         }
+        //     }
+
+        //     // arrayString += System.Environment.NewLine + System.Environment.NewLine;
+        // }
+        // //Debug.Log(arrayString);
 
     }
 
