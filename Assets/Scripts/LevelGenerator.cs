@@ -1,5 +1,4 @@
-﻿
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
@@ -7,13 +6,35 @@ using System;
 public class LevelGenerator : MonoBehaviour
 {
 
-    //public GameObject mazeEmpty;
-    //public GameObject PacManSpriteRight;
-    // public GameObject PacManSpriteLeft;
+    public GameObject mazeEmpty;
+    public GameObject PacManSpriteRight;
+    public GameObject PacManSpriteLeft;
+
+    // Outside wall (double line in original game)
     public GameObject MazeLeftCorner;
     public GameObject MazeRightCorner;
-    // public GameObject MazeBottomLeftCorner;
-    // public GameObject MazeBottomRightCorner;
+
+
+    public GameObject MazeBottomLeftCorner;
+    public GameObject MazeBottomRightCorner;
+
+    // Power pellet
+    public GameObject PowerPellet;
+
+    // Standard pellet
+    public GameObject standardPellet;
+
+    // Inside Corner
+    public GameObject insideCorner;
+
+    //outside wall
+    public GameObject outsideWall;
+
+
+    public GameObject insideWall;
+
+    public GameObject tJunction;
+    
 
     public Camera mainCam;
 
@@ -63,13 +84,35 @@ public class LevelGenerator : MonoBehaviour
 
                 // arrayString += string.Format("{0} ", levelMap[i, j]);
                 if (levelMap[i,j] == 1) {
-                    GameObject a = Instantiate(MazeLeftCorner, new Vector3(nextPosition.x,nextPosition.y,0), Quaternion.identity);
+                    GameObject mazeCornerLeft = Instantiate(MazeLeftCorner, new Vector3(nextPosition.x,nextPosition.y,0), Quaternion.identity);
                     nextPosition = new Vector3(pos.x+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.x)*i, pos.y+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.y)*j,0);
                 }
                 else if (levelMap[i,j] == 2) {
-                    GameObject b = Instantiate(MazeRightCorner, new Vector3(nextPosition.x,nextPosition.y,0), Quaternion.identity);
+                    GameObject wallOutside = Instantiate(outsideWall, new Vector3(nextPosition.x,nextPosition.y,0), Quaternion.identity);
+                    nextPosition = new Vector3(pos.x+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.x)*i, pos.y+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.y)*j,0);
+                }                
+                else if (levelMap[i,j] == 3) {
+                    GameObject cornerInside = Instantiate(insideCorner, new Vector3(nextPosition.x,nextPosition.y,0), Quaternion.identity);
                     nextPosition = new Vector3(pos.x+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.x)*i, pos.y+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.y)*j,0);
                 }
+                else if (levelMap[i,j] == 4) {
+                    GameObject wallInside = Instantiate(insideWall, new Vector3(nextPosition.x,nextPosition.y,0), Quaternion.identity);
+                    nextPosition = new Vector3(pos.x+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.x)*i, pos.y+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.y)*j,0);
+                }
+                else if (levelMap[i,j] == 5) {
+                    GameObject pelletStandard = Instantiate(standardPellet, new Vector3(nextPosition.x,nextPosition.y,0), Quaternion.identity);
+                    nextPosition = new Vector3(pos.x+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.x)*i, pos.y+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.y)*j,0);
+                }
+                else if (levelMap[i,j] == 6) {
+                    GameObject pelletPower = Instantiate(PowerPellet, new Vector3(nextPosition.x,nextPosition.y,0), Quaternion.identity);
+                    nextPosition = new Vector3(pos.x+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.x)*i, pos.y+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.y)*j,0);
+                }
+                else if (levelMap[i,j] == 7) {
+                    GameObject junctionT = Instantiate(tJunction, new Vector3(nextPosition.x,nextPosition.y,0), Quaternion.identity);
+                    nextPosition = new Vector3(pos.x+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.x)*i, pos.y+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.y)*j,0);
+                }
+
+
             }
 
             // arrayString += System.Environment.NewLine + System.Environment.NewLine;

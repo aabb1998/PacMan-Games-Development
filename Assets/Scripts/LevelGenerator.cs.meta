@@ -1,9 +1,23 @@
 fileFormatVersion: 2
-guid: e938c5027af7a3140b599257f646367a
+guid: 0fb5f0ba53279fa42af3a106ff2277f4
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - mazeEmpty: {fileID: 364643876989273795, guid: a2d42054313409343a7328381f4565f6,
+      type: 3}
+  - PacManSpriteRight: {fileID: 1500606311327476063, guid: f4bc33ec20cf0154487107141f1c0128,
+      type: 3}
+  - PacManSpriteLeft: {fileID: 936079898677682998, guid: 265b4b7f4b79bd8448d716324e05fc85,
+      type: 3}
+  - MazeLeftCorner: {fileID: 6576415807419022185, guid: f71f946a6eac004439e882b2fe930532,
+      type: 3}
+  - MazeRightCorner: {fileID: 4995531493084781303, guid: 3555f4c0220e99c42b886dc65a87d82c,
+      type: 3}
+  - MazeBottomLeftCorner: {fileID: 5065353388709771213, guid: e5a90042b08265f428bfd9d0ef3398dd,
+      type: 3}
+  - MazeBottomRightCorner: {fileID: 5839208822119507170, guid: d598f45ff49e3ac45bc6ded15350ab9a,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
