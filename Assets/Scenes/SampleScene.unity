@@ -147,6 +147,23 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+<<<<<<< Updated upstream
+=======
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb5f0ba53279fa42af3a106ff2277f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MazeLeftCorner: {fileID: 113557135}
+  mainCam: {fileID: 519420031}
+>>>>>>> Stashed changes
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -198,8 +215,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 14.5, y: 16, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+=======
+  m_LocalPosition: {x: 20, y: 20, z: -1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
