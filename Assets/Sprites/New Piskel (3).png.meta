@@ -1,23 +1,24 @@
 fileFormatVersion: 2
-guid: 8f1c4b0b406be044396800234d28f21b
+guid: 1a840c09f5522a9499a808c84a7652ca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4644426219424451976
-    second: Sprites_NPCs_0
+      213: -1603291472181913768
+    second: New Piskel (3)_0
   - first:
-      213: 9127932514342410766
-    second: Sprites_NPCs_1
+      213: 1727701513693895514
+    second: New Piskel (3)_1
   - first:
-      213: 6293621045829399589
-    second: Sprites_NPCs_2
+      213: 6885142304389756897
+    second: New Piskel (3)_2
   - first:
-      213: 1349724605619596776
-    second: Sprites_NPCs_3
+      213: -3920763251539160592
+    second: New Piskel (3)_3
   - first:
-      213: 3002075256592646907
-    second: Sprites_NPCs_4
+      213: -1694524838324611193
+    second: New Piskel (3)_4
   - first:
+<<<<<<< Updated upstream:Assets/Sprites/Sprites_NPCs.png.meta
       213: -7070151076823720965
     second: Sprites_NPCs_5
   - first:
@@ -32,6 +33,10 @@ TextureImporter:
   - first:
       213: 7468131847760352645
     second: Sprites_NPCs_9
+=======
+      213: 1066949510724028421
+    second: New Piskel (3)_5
+>>>>>>> Stashed changes:Assets/Sprites/New Piskel (3).png.meta
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -116,6 +121,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<< Updated upstream:Assets/Sprites/Sprites_NPCs.png.meta
       name: Sprites_NPCs_0
       rect:
         serializedVersion: 2
@@ -186,6 +192,15 @@ TextureImporter:
         y: 38
         width: 20
         height: 21
+=======
+      name: New Piskel (3)_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 68
+        width: 18
+        height: 24
+>>>>>>> Stashed changes:Assets/Sprites/New Piskel (3).png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +208,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ed6f8ea06f2bb210800000000000000
-      internalID: 1349724605619596776
+      spriteID: 8571f2196e6ffb9e0800000000000000
+      internalID: -1603291472181913768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_NPCs_4
+      name: New Piskel (3)_1
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream:Assets/Sprites/Sprites_NPCs.png.meta
         x: 38
         y: 38
         width: 20
         height: 21
+=======
+        x: 39
+        y: 68
+        width: 18
+        height: 24
+>>>>>>> Stashed changes:Assets/Sprites/New Piskel (3).png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +236,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf2c13a4a8389a920800000000000000
-      internalID: 3002075256592646907
+      spriteID: a5b11a97f570af710800000000000000
+      internalID: 1727701513693895514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_NPCs_5
+      name: New Piskel (3)_2
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream:Assets/Sprites/Sprites_NPCs.png.meta
         x: 71
         y: 44
         width: 19
         height: 8
+=======
+        x: 7
+        y: 36
+        width: 18
+        height: 24
+>>>>>>> Stashed changes:Assets/Sprites/New Piskel (3).png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,13 +264,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfb939d0e07c1ed90800000000000000
-      internalID: -7070151076823720965
+      spriteID: 1e77a216270fc8f50800000000000000
+      internalID: 6885142304389756897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream:Assets/Sprites/Sprites_NPCs.png.meta
       name: Sprites_NPCs_7
       rect:
         serializedVersion: 2
@@ -249,6 +279,15 @@ TextureImporter:
         y: 11
         width: 11
         height: 10
+=======
+      name: New Piskel (3)_3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 36
+        width: 18
+        height: 24
+>>>>>>> Stashed changes:Assets/Sprites/New Piskel (3).png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,13 +295,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream:Assets/Sprites/Sprites_NPCs.png.meta
       spriteID: 6b4ccf782eacad140800000000000000
       internalID: 4745328231681148086
+=======
+      spriteID: 0f15a978896a699c0800000000000000
+      internalID: -3920763251539160592
+>>>>>>> Stashed changes:Assets/Sprites/New Piskel (3).png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream:Assets/Sprites/Sprites_NPCs.png.meta
       name: Sprites_NPCs_8
       rect:
         serializedVersion: 2
@@ -270,6 +315,15 @@ TextureImporter:
         y: 11
         width: 11
         height: 10
+=======
+      name: New Piskel (3)_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4
+        width: 18
+        height: 24
+>>>>>>> Stashed changes:Assets/Sprites/New Piskel (3).png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,13 +331,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream:Assets/Sprites/Sprites_NPCs.png.meta
       spriteID: 72d9cf4e14f4f0c50800000000000000
       internalID: 6633607920573259047
+=======
+      spriteID: 787d59433a6db78e0800000000000000
+      internalID: -1694524838324611193
+>>>>>>> Stashed changes:Assets/Sprites/New Piskel (3).png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream:Assets/Sprites/Sprites_NPCs.png.meta
       name: Sprites_NPCs_9
       rect:
         serializedVersion: 2
@@ -291,6 +351,15 @@ TextureImporter:
         y: 3
         width: 22
         height: 26
+=======
+      name: New Piskel (3)_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 4
+        width: 18
+        height: 24
+>>>>>>> Stashed changes:Assets/Sprites/New Piskel (3).png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,8 +367,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream:Assets/Sprites/Sprites_NPCs.png.meta
       spriteID: 5859981095224a760800000000000000
       internalID: 7468131847760352645
+=======
+      spriteID: 5088bf35de09ece00800000000000000
+      internalID: 1066949510724028421
+>>>>>>> Stashed changes:Assets/Sprites/New Piskel (3).png.meta
       vertices: []
       indices: 
       edges: []
