@@ -67,7 +67,7 @@ public class LevelGenerator : MonoBehaviour
     {
 
         Bounds bound = MazeLeftCorner.GetComponent<Renderer>().bounds;
-        mainCam.orthographicSize = 18 * bound.size.y * 0.5f;
+        mainCam.orthographicSize = 14 * bound.size.y;
 
          int rowLength = levelMap.GetLength(0);
          int colLength = levelMap.GetLength(1);
