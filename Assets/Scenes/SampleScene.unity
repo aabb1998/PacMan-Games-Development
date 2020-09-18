@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 519420030}
   - component: {fileID: 519420034}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420035}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -169,11 +170,12 @@ MonoBehaviour:
     type: 3}
   MazeRightCorner: {fileID: 9163027922522797725, guid: 78cd6bbcec1e4ba42add95a52fe6e6de,
     type: 3}
+  pacMan: {fileID: 4219470454760610058, guid: 2edd67c5378db6946a5b784f659736c3, type: 3}
   MazeBottomLeftCorner: {fileID: 9163027922522797725, guid: 78cd6bbcec1e4ba42add95a52fe6e6de,
     type: 3}
   MazeBottomRightCorner: {fileID: 9163027922522797725, guid: 78cd6bbcec1e4ba42add95a52fe6e6de,
     type: 3}
-  PowerPellet: {fileID: 9171766488912800085, guid: 4c2ed3d0592b79849bc23da5ae8d40d3,
+  PowerPellet: {fileID: 714667789282695837, guid: 1285274a1a7e44e42a0240862e8d9dcc,
     type: 3}
   standardPellet: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
     type: 3}
@@ -353,3 +355,96 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &519420035
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9513a627ab6f7c845aca4b7b50345163, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &4159567566381731903
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2433322734282188409, guid: 2edd67c5378db6946a5b784f659736c3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433322734282188409, guid: 2edd67c5378db6946a5b784f659736c3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433322734282188409, guid: 2edd67c5378db6946a5b784f659736c3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433322734282188409, guid: 2edd67c5378db6946a5b784f659736c3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433322734282188409, guid: 2edd67c5378db6946a5b784f659736c3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433322734282188409, guid: 2edd67c5378db6946a5b784f659736c3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433322734282188409, guid: 2edd67c5378db6946a5b784f659736c3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433322734282188409, guid: 2edd67c5378db6946a5b784f659736c3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433322734282188409, guid: 2edd67c5378db6946a5b784f659736c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433322734282188409, guid: 2edd67c5378db6946a5b784f659736c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433322734282188409, guid: 2edd67c5378db6946a5b784f659736c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4219470454760610058, guid: 2edd67c5378db6946a5b784f659736c3,
+        type: 3}
+      propertyPath: m_Name
+      value: PacManSprite_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946917158068310610, guid: 2edd67c5378db6946a5b784f659736c3,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 33e6a34e8d743ff44911d5a9f20c666e, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2edd67c5378db6946a5b784f659736c3, type: 3}

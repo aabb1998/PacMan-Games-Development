@@ -14,6 +14,7 @@ public class LevelGenerator : MonoBehaviour
     public GameObject MazeLeftCorner;
     public GameObject MazeRightCorner;
 
+    public GameObject pacMan;
 
     public GameObject MazeBottomLeftCorner;
     public GameObject MazeBottomRightCorner;
@@ -47,7 +48,7 @@ public class LevelGenerator : MonoBehaviour
         {2,5,3,4,4,3,5,3,4,4,4,3,5,4},
         {2,6,4,0,0,4,5,4,0,0,0,4,5,4},
         {2,5,3,4,4,3,5,3,4,4,4,3,5,3},
-        {2,5,5,5,5,5,5,5,5,5,5,5,5,5},
+        {2,5,8,5,5,5,5,5,5,5,5,5,5,5},
         {2,5,3,4,4,3,5,3,3,5,3,4,4,4},
         {2,5,3,4,4,3,5,4,4,5,3,4,4,3},
         {2,5,5,5,5,5,5,4,4,5,5,5,5,4},
@@ -82,6 +83,12 @@ public class LevelGenerator : MonoBehaviour
 
             for (int j = 0; j < colLength; j++) {
 
+                if (levelMap[i,j] == 8) {
+                    //GameObject pacman = Instantiate(pacMan, new Vector3(-11,17,0), Quaternion.identity);
+                    GameObject pacman = Instantiate(pacMan, new Vector3(nextPosition.x,nextPosition.y,0), Quaternion.identity);
+                    nextPosition = new Vector3(pos.x+(pacMan.GetComponent<Renderer>().bounds.size.x)*i, pos.y+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.y)*j,0);
+                }
+
                 // arrayString += string.Format("{0} ", levelMap[i, j]);
                 if (levelMap[i,j] == 1) {
                     GameObject mazeCornerLeft = Instantiate(MazeLeftCorner, new Vector3(nextPosition.x,nextPosition.y,0), Quaternion.identity);
@@ -111,6 +118,7 @@ public class LevelGenerator : MonoBehaviour
                     GameObject junctionT = Instantiate(tJunction, new Vector3(nextPosition.x,nextPosition.y,0), Quaternion.identity);
                     nextPosition = new Vector3(pos.x+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.x)*i, pos.y+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.y)*j,0);
                 }
+
 
 
             }
