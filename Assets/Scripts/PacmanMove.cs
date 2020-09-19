@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Timers;
 
 public class PacmanMove : MonoBehaviour
 {
@@ -24,6 +25,10 @@ public class PacmanMove : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        
+
+
+
         Vector2 p = Vector2.MoveTowards(transform.position, dest, speed);
         GetComponent<Rigidbody2D>().MovePosition(p);
 
