@@ -38,5 +38,10 @@ public class PacmanMove : MonoBehaviour
                 dest = (Vector2)transform.position + Vector2.left;
         }
 
+        Vector2 dir = dest - (Vector2)transform.position;
+        GetComponent<Animator>().SetFloat("DirX", dir.x);
+        GetComponent<Animator>().SetFloat("DirY", dir.y);
+
+
     }
 }
