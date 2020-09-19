@@ -63,12 +63,14 @@ public class LevelGenerator : MonoBehaviour
 
 
 
+
+
     // Start is called before the first frame update
     void Start()
     {
 
         Bounds bound = MazeLeftCorner.GetComponent<Renderer>().bounds;
-        mainCam.orthographicSize = 17 * bound.size.y;
+        mainCam.orthographicSize = 16 * bound.size.y;
 
          int rowLength = levelMap.GetLength(0);
          int colLength = levelMap.GetLength(1);
@@ -96,7 +98,7 @@ public class LevelGenerator : MonoBehaviour
                 }
                 else if (levelMap[i,j] == 2) {
                     GameObject wallOutside = Instantiate(outsideWall, new Vector3(nextPosition.x,nextPosition.y,0), Quaternion.identity);
-                    nextPosition = new Vector3(pos.x+(outsideWall.GetComponent<Renderer>().bounds.size.x)*i, pos.y+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.y)*j,0);
+                    nextPosition = new Vector3(pos.x+(outsideWall.GetComponent<Renderer>().bounds.size.x)*i, pos.y+(outsideWall.GetComponent<Renderer>().bounds.size.y)*j,0);
                 }                
                 else if (levelMap[i,j] == 3) {
                     GameObject cornerInside = Instantiate(insideCorner, new Vector3(nextPosition.x,nextPosition.y,0), Quaternion.identity);
