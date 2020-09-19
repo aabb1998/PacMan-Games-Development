@@ -43,21 +43,21 @@ public class LevelGenerator : MonoBehaviour
     
     int[,] levelMap =
     {
-        {1,2,2,2,2,2,2,2,2,2,2,2,2,7},
-        {2,5,5,5,5,5,5,5,5,5,5,5,5,4},
-        {2,5,3,4,4,3,5,3,4,4,4,3,5,4},
-        {2,6,4,0,0,4,5,4,0,0,0,4,5,4},
-        {2,5,3,4,4,3,5,3,4,4,4,3,5,3},
-        {2,5,8,5,5,5,5,5,5,5,5,5,5,5},
-        {2,5,3,4,4,3,5,3,3,5,3,4,4,4},
-        {2,5,3,4,4,3,5,4,4,5,3,4,4,3},
-        {2,5,5,5,5,5,5,4,4,5,5,5,5,4},
-        {1,2,2,2,2,1,5,4,3,4,4,3,0,4},
-        {0,0,0,0,0,2,5,4,3,4,4,3,0,3},
-        {0,0,0,0,0,2,5,4,4,0,0,0,0,0},
-        {0,0,0,0,0,2,5,4,4,0,3,4,4,0},
-        {2,2,2,2,2,1,5,3,3,0,4,0,0,0},
-        {0,0,0,0,0,0,5,0,0,0,4,0,0,0},
+        {0,1,2,2,2,2,2,2,2,2,2,2,2,2,7},
+        {0,2,5,5,5,5,5,5,5,5,5,5,5,5,4},
+        {0,2,5,3,4,4,3,5,3,4,4,4,3,5,4},
+        {0,2,6,4,0,0,4,5,4,0,0,0,4,5,4},
+        {0,2,5,3,4,4,3,5,3,4,4,4,3,5,3},
+        {0,2,5,5,5,5,5,5,5,5,5,5,5,5,5},
+        {0,2,5,3,4,4,3,5,3,3,5,3,4,4,4},
+        {0,2,5,3,4,4,3,5,4,4,5,3,4,4,3},
+        {0,2,5,5,5,5,5,5,4,4,5,5,5,5,4},
+        {0,1,2,2,2,2,1,5,4,3,4,4,3,0,4},
+        {0,0,0,0,0,0,2,5,4,3,4,4,3,0,3},
+        {0,0,0,0,0,0,2,5,4,4,0,0,0,0,0},
+        {0,0,0,0,0,0,2,5,4,4,0,3,4,4,0},
+        {0,2,2,2,2,2,1,5,3,3,0,4,0,0,0},
+        {0,0,0,0,0,0,0,5,0,0,0,4,0,0,0},
     }; 
 
 
@@ -68,7 +68,7 @@ public class LevelGenerator : MonoBehaviour
     {
 
         Bounds bound = MazeLeftCorner.GetComponent<Renderer>().bounds;
-        mainCam.orthographicSize = 14 * bound.size.y;
+        mainCam.orthographicSize = 17 * bound.size.y;
 
          int rowLength = levelMap.GetLength(0);
          int colLength = levelMap.GetLength(1);
@@ -96,7 +96,7 @@ public class LevelGenerator : MonoBehaviour
                 }
                 else if (levelMap[i,j] == 2) {
                     GameObject wallOutside = Instantiate(outsideWall, new Vector3(nextPosition.x,nextPosition.y,0), Quaternion.identity);
-                    nextPosition = new Vector3(pos.x+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.x)*i, pos.y+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.y)*j,0);
+                    nextPosition = new Vector3(pos.x+(outsideWall.GetComponent<Renderer>().bounds.size.x)*i, pos.y+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.y)*j,0);
                 }                
                 else if (levelMap[i,j] == 3) {
                     GameObject cornerInside = Instantiate(insideCorner, new Vector3(nextPosition.x,nextPosition.y,0), Quaternion.identity);
