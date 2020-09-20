@@ -43,24 +43,33 @@ public class LevelGenerator : MonoBehaviour
     
     int[,] levelMap =
     {
-        {0,1,2,2,2,2,2,2,2,2,2,2,2,2,7},
-        {0,2,5,5,5,5,5,5,5,5,5,5,5,5,4},
-        {0,2,5,3,4,4,3,5,3,4,4,4,3,5,4},
-        {0,2,6,4,0,0,4,5,4,0,0,0,4,5,4},
-        {0,2,5,3,4,4,3,5,3,4,4,4,3,5,3},
-        {0,2,5,5,5,5,5,5,5,5,5,5,5,5,5},
-        {0,2,5,3,4,4,3,5,3,3,5,3,4,4,4},
-        {0,2,5,3,4,4,3,5,4,4,5,3,4,4,3},
-        {0,2,5,5,5,5,5,5,4,4,5,5,5,5,4},
-        {0,1,2,2,2,2,1,5,4,3,4,4,3,0,4},
-        {0,0,0,0,0,0,2,5,4,3,4,4,3,0,3},
-        {0,0,0,0,0,0,2,5,4,4,0,0,0,0,0},
-        {0,0,0,0,0,0,2,5,4,4,0,3,4,4,0},
-        {0,2,2,2,2,2,1,5,3,3,0,4,0,0,0},
-        {0,0,0,0,0,0,0,5,0,0,0,4,0,0,0},
+        {1,2,2,2,2,2,2,2,2,2,2,2,2,7,0},
+        {2,5,5,5,5,5,5,5,5,5,5,5,5,4,0},
+        {2,5,3,4,4,3,5,3,4,4,4,3,5,4,0},
+        {2,6,4,0,0,4,5,4,0,0,0,4,5,4,0},
+        {2,5,3,4,4,3,5,3,4,4,4,3,5,3,0},
+        {2,5,5,5,5,5,5,5,5,5,5,5,5,5,0},
+        {2,5,3,4,4,3,5,3,3,5,3,4,4,4,0},
+        {2,5,3,4,4,3,5,4,4,5,3,4,4,3,0},
+        {2,5,5,5,5,5,5,4,4,5,5,5,5,4,0},
+        {1,2,2,2,2,1,5,4,3,4,4,3,0,4,0},
+        {0,0,0,0,0,2,5,4,3,4,4,3,0,3,0},
+        {0,0,0,0,0,2,5,4,4,0,0,0,0,0,0},
+        {0,0,0,0,0,2,5,4,4,0,3,4,4,0,0},
+        {2,2,2,2,2,1,5,3,3,0,4,0,0,0,0},
+        {0,0,0,0,0,0,5,0,0,0,4,0,0,0,0},
     }; 
 
 
+    static int[,] RotateMatrix(int[,] matrix, int n) {
+        int[,] ret = new int[n,n];
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < n; ++j) {
+                ret[i,j] = matrix[n-j-1,i];
+            }
+        }
+        return ret;
+    }
 
 
 
@@ -69,17 +78,30 @@ public class LevelGenerator : MonoBehaviour
     void Start()
     {
 
-        Bounds bound = MazeLeftCorner.GetComponent<Renderer>().bounds;
-        mainCam.orthographicSize = 16 * bound.size.y;
+        int[,] levelMapRotated = RotateMatrix(levelMap,15);
+        Debug.Log(levelMapRotated[0,0]);
+        
 
-         int rowLength = levelMap.GetLength(0);
-         int colLength = levelMap.GetLength(1);
+            
+        Bounds bound = MazeLeftCorner.GetComponent<Renderer>().bounds;
+        mainCam.orthographicSize = 15 * bound.size.y;
+
+         int rowLength = levelMap.GetUpperBound(0);
+         int colLength = levelMap.GetUpperBound(1);
 
         Vector3 pos = mainCam.ScreenToWorldPoint(Vector3.zero);
         pos = new Vector3( pos.x + bound.extents.x, pos.y + bound.extents.y, 0);
         Vector3 nextPosition = pos;
 
-        
+        for (int i = 0; i < rowLength; i++) {
+            for (int j = 0; j < colLength; j++) {
+                if (levelMapRotated[i,j] == 1) {
+                    GameObject mazeCornerLeft = Instantiate(MazeLeftCorner, new Vector3(-31,50,0), Quaternion.identity);
+                    nextPosition = new Vector3(pos.x+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.x)*i, pos.y+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.y)*j,0);
+                }
+
+            }
+        }
 
         for (int i = 0; i < rowLength; i++) {
 
