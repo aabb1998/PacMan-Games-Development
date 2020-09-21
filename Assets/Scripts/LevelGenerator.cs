@@ -96,7 +96,7 @@ public class LevelGenerator : MonoBehaviour
         for (int i = 0; i < rowLength; i++) {
             for (int j = 0; j < colLength; j++) {
                 if (levelMapRotated[i,j] == 1) {
-                    GameObject mazeCornerLeft = Instantiate(MazeLeftCorner, new Vector3(-31,50,0), Quaternion.identity);
+                    GameObject mazeCornerLeft = Instantiate(MazeLeftCorner, new Vector3(nextPosition.x,nextPosition.y,0), Quaternion.identity);
                     nextPosition = new Vector3(pos.x+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.x)*i, pos.y+(MazeLeftCorner.GetComponent<Renderer>().bounds.size.y)*j,0);
                 }
 
