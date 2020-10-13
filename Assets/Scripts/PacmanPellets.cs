@@ -10,4 +10,6 @@ public class PacmanPellets : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+
 }
