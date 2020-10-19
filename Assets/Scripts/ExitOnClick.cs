@@ -9,4 +9,9 @@ public class ExitOnClick : MonoBehaviour
         Application.Quit();
         Debug.Log("Game is exiting!");
     }
+
+    public void OnMouseClick() {
+        Application.LoadLevel("StartScene");
+    }
+
 }
