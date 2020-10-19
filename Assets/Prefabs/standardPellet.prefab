@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7438032469806244243}
   - component: {fileID: 2804374080928121164}
+  - component: {fileID: 3396608794683358964}
   m_Layer: 0
   m_Name: standardPellet
   m_TagString: Untagged
@@ -82,3 +83,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &3396608794683358964
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5360225797773272179}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.110000014, y: 0.1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}

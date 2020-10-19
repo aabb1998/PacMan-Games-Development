@@ -19,8 +19,11 @@ public class Timer : MonoBehaviour
     void Update()
     {
         float t = Time.time - startTime;
-        string minutes = ((int) t / 60).ToString();
-        string seconds = (t % 60).ToString("f2");
-        timerText.text = minutes + ":" + seconds;
+        string minutes = Mathf.Floor((int) t / 60).ToString("00");
+        // ((int) t / 60).ToString();
+        // string seconds = (t % 60).ToString("f2");
+        string seconds = (t % 60).ToString("00");
+        string ms = ((t * 100f) % 100).ToString("00");
+        timerText.text = minutes + ":" + seconds + ":" + ms;
     }
 }

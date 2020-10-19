@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - 3
   - 
   - 
   - 
@@ -43,4 +43,7 @@ TagManager:
     locked: 0
   - name: New Layer
     uniqueID: 3702036575
+    locked: 0
+  - name: New Layer
+    uniqueID: 190642879
     locked: 0
