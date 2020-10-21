@@ -38,6 +38,8 @@ public class CherryController : MonoBehaviour
             //     posIndex++;
             //     posIndex = (posIndex >= length) ? 0: posIndex;
             // }
+            Destroy(cherryClone.gameObject, 10f);
+            
         }
     }
 }

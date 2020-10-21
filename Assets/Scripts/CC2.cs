@@ -15,13 +15,13 @@ float t;
 
 void Awake()
 {
-    gameObject = new GameObject();
-    spriteRenderer = gameObject.AddComponent<SpriteRenderer>();        
+    //gameObject = new GameObject();
+    //spriteRenderer = gameObject.AddComponent<SpriteRenderer>();        
 }
 
 private void Start()
 {
-    spriteRenderer.sprite = sprite;
+    //spriteRenderer.sprite = sprite;
     startPosition  = new Vector3(-35, 42, 0);
     targetPosition = new Vector3(139, 42, 0);        
 }
