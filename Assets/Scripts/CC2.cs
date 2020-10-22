@@ -22,8 +22,8 @@ void Awake()
 private void Start()
 {
     //spriteRenderer.sprite = sprite;
-    startPosition  = new Vector3(-35, 42, 0);
-    targetPosition = new Vector3(139, 42, 0);        
+    startPosition  = new Vector3(-35, 42, 10);
+    targetPosition = new Vector3(139, 42, 10);        
 }
     
 void Update()

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1817182548638767719}
   - component: {fileID: -3692086035859755910}
   - component: {fileID: 3343086463182405156}
+  - component: {fileID: 848038671015735452}
   m_Layer: 0
   m_Name: New Piskel (4)_30
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2766133014910446117}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -33, y: 40, z: 0}
+  m_LocalPosition: {x: -33, y: 40, z: 10}
   m_LocalScale: {x: 12, y: 12, z: 12}
   m_Children: []
   m_Father: {fileID: 0}
@@ -113,3 +114,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 1791267588040370930, guid: e260a73d96b51444b86c8d2bb7c7e122, type: 3}
+--- !u!135 &848038671015735452
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2766133014910446117}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.13
+  m_Center: {x: 0, y: 0, z: 0}

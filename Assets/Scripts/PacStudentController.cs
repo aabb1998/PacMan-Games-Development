@@ -30,6 +30,9 @@ public class PacStudentController : MonoBehaviour
     public int livesAmount = 3;
     public int currentLives = 3;
 
+    AudioSource source;
+    public AudioClip pelletEat;
+
     // Store the last key pressed by the user
     KeyCode lastInput;
 
@@ -39,6 +42,7 @@ public class PacStudentController : MonoBehaviour
     {
         dest = transform.position;
         currentScore = startingScore;
+        source = GetComponent<AudioSource>();
     }
 
     public void increaseScore(int addScore) {
@@ -47,7 +51,7 @@ public class PacStudentController : MonoBehaviour
         scoreText.text = "Score: " + currentScore;
     }
 
-    void FixedUpdate() {
+    void Update() {
         // Move closer to Destination
         Vector2 p = Vector2.MoveTowards(transform.position, dest, speed);
         GetComponent<Rigidbody2D>().MovePosition(p);
@@ -85,12 +89,13 @@ public class PacStudentController : MonoBehaviour
 
 
         void OnCollisionEnter2D(Collision2D collision) {
-        if (collision.gameObject.CompareTag("pellet"))
+        if (collision.gameObject.CompareTag("pellet")) 
             print("HELLO");
             Destroy(collision.gameObject);
             increaseScore(pelletScore);
+            source.PlayOneShot(pelletEat,0.3f);
 
-        }
+        } 
         
 
         bool valid(Vector2 dir) {
