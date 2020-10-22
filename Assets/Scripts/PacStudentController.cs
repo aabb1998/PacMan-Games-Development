@@ -13,6 +13,8 @@ public class PacStudentController : MonoBehaviour
     public int startDelay = 30000;
     Animator animator;
     Vector2 dest = Vector2.zero;
+    public float SpawnRate = 1f;
+    private float DelayTimer = 5f;
 
     // Store the last key pressed by the user
     KeyCode lastInput;
@@ -37,22 +39,22 @@ public class PacStudentController : MonoBehaviour
         GetComponent<Rigidbody2D>().MovePosition(p);
 
         // Check for Input if not moving
-        if ((Vector2)transform.position == dest) {
-            if (Input.GetKey(KeyCode.W) && valid(Vector2.up))
+        if ((Vector2)transform.position == dest && Time.time > DelayTimer) {
+            if (Input.GetKey(KeyCode.W) && valid(Vector2.up) && Time.time > DelayTimer)
                 dest = (Vector2)transform.position + Vector2.up;
                 lastInput = KeyCode.W;
                 // print(lastKey);
-            if (Input.GetKey(KeyCode.D) && valid(Vector2.right))
+            if (Input.GetKey(KeyCode.D) && valid(Vector2.right) && Time.time > DelayTimer)
                 dest = (Vector2)transform.position + Vector2.right;
                 lastInput = KeyCode.D;
                                 // print(lastKey);
 
-            if (Input.GetKey(KeyCode.S) && valid(-Vector2.up))
+            if (Input.GetKey(KeyCode.S) && valid(-Vector2.up) && Time.time > DelayTimer)
                 dest = (Vector2)transform.position - Vector2.up;
                 lastInput = KeyCode.S;
                                 // print(lastKey);
 
-            if (Input.GetKey(KeyCode.A) && valid(-Vector2.right))
+            if (Input.GetKey(KeyCode.A) && valid(-Vector2.right) && Time.time > DelayTimer)
                 dest = (Vector2)transform.position - Vector2.right;
                 lastInput = KeyCode.A;
                                 // print(lastKey);
@@ -89,8 +91,8 @@ public class PacStudentController : MonoBehaviour
 
 
         void OnTriggerEnter2D(Collider2D co) {
-        // if (co.name == "pacman")
-        //     Destroy(co.gameObject);
+        if (co.name == "pacman")
+            Destroy(co.gameObject);
         }
 
         bool valid(Vector2 dir) {

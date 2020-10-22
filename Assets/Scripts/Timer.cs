@@ -23,7 +23,17 @@ public class Timer : MonoBehaviour
         // ((int) t / 60).ToString();
         // string seconds = (t % 60).ToString("f2");
         string seconds = (t % 60).ToString("00");
-        string ms = ((t * 100f) % 100).ToString("00");
+        string ms = ((t * 100f) % 60).ToString("00");
         timerText.text = minutes + ":" + seconds + ":" + ms;
     }
+    // IEnumerator startTimeDelay() {
+    //     yield return new WaitForSeconds(6);
+    //         //     float t = Time.time - startTime;
+    // //     string minutes = Mathf.Floor((int) t / 60).ToString("00");
+    // //     // ((int) t / 60).ToString();
+    // //     // string seconds = (t % 60).ToString("f2");
+    // //     string seconds = (t % 60).ToString("00");
+    // //     string ms = ((t * 100f) % 60).ToString("00");
+    // //     timerText.text = minutes + ":" + seconds + ":" + ms;
+    // }
 }

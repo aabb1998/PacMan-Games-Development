@@ -8,8 +8,8 @@ public class PlayAudio : MonoBehaviour
 
 
     // Start is called before the first frame update
-        public AudioClip StartClip;
-     public AudioClip LoopClip;
+    public AudioClip StartClip;
+    public AudioClip LoopClip;
  
      void Start()
      {
@@ -18,12 +18,14 @@ public class PlayAudio : MonoBehaviour
  
      IEnumerator playSound()
      {
-         GetComponent<AudioSource>().clip = StartClip;
-         GetComponent<AudioSource>().Play();
-         yield return new WaitForSeconds(StartClip.length);
          GetComponent<AudioSource>().clip = LoopClip;
          GetComponent<AudioSource>().Play();
-         GetComponent<AudioSource>().loop = true;
+        GetComponent<AudioSource>().clip = LoopClip;
+
+         yield return new WaitForSeconds(LoopClip.length);
+        //  GetComponent<AudioSource>().clip = LoopClip;
+        //  GetComponent<AudioSource>().Play();
+        //  GetComponent<AudioSource>().loop = true;
      }
  
 
