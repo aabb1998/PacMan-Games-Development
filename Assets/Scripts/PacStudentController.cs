@@ -15,7 +15,7 @@ public class PacStudentController : MonoBehaviour
     Vector2 dest = Vector2.zero;
 
     // Store the last key pressed by the user
-    KeyCode lastKey;
+    KeyCode lastInput;
 
 
     // Start is called before the first frame update
@@ -40,26 +40,26 @@ public class PacStudentController : MonoBehaviour
         if ((Vector2)transform.position == dest) {
             if (Input.GetKey(KeyCode.W) && valid(Vector2.up))
                 dest = (Vector2)transform.position + Vector2.up;
-                lastKey = KeyCode.W;
+                lastInput = KeyCode.W;
                 // print(lastKey);
             if (Input.GetKey(KeyCode.D) && valid(Vector2.right))
                 dest = (Vector2)transform.position + Vector2.right;
-                lastKey = KeyCode.D;
+                lastInput = KeyCode.D;
                                 // print(lastKey);
 
             if (Input.GetKey(KeyCode.S) && valid(-Vector2.up))
                 dest = (Vector2)transform.position - Vector2.up;
-                lastKey = KeyCode.S;
+                lastInput = KeyCode.S;
                                 // print(lastKey);
 
             if (Input.GetKey(KeyCode.A) && valid(-Vector2.right))
                 dest = (Vector2)transform.position - Vector2.right;
-                lastKey = KeyCode.A;
+                lastInput = KeyCode.A;
                                 // print(lastKey);
 
         }
 
-        print(lastKey);
+        print(lastInput);
         // if (lastKey == KeyCode.W) {
         //     print("W was pressed");
         // }
