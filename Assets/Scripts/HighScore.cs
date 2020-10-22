@@ -3,14 +3,18 @@ using UnityEngine.UI;
 
 public class HighScore : MonoBehaviour
 {
-    
-    public Text score;
-    //public Text time;
     public Text highScore;
-    public Text bestTime;
+    public Text score;
+
+    public Text timeHighScore;
+    public Text timeScore;
+
 
     void Start() {
         highScore.text = "Score: " + PlayerPrefs.GetInt("Highscore", 30).ToString();
+        timeHighScore.text = "Time: " + PlayerPrefs.GetString("Timescore", "01:12:23").ToString();
+        
+
     }
 
     public void updateScore () {
@@ -20,6 +24,15 @@ public class HighScore : MonoBehaviour
 
         PlayerPrefs.SetInt("Highscore", highscore);
 
+        string timehighscore = "01:23:54";
+        timeScore.text = "Time: " + timehighscore;
+        PlayerPrefs.SetString("Timescore", timehighscore);
+
+
     }
+
+
+
+
 
 }

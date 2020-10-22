@@ -380,8 +380,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a4528e254fa2534bb71ac5da5a3a24d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: {fileID: 453241053}
   highScore: {fileID: 453241053}
+  score: {fileID: 453241053}
+  timeHighScore: {fileID: 1204196530}
+  timeScore: {fileID: 1204196530}
 --- !u!114 &453241053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1269,8 +1271,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a4528e254fa2534bb71ac5da5a3a24d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: {fileID: 1204196530}
-  highScore: {fileID: 1204196530}
+  highScore: {fileID: 453241053}
+  score: {fileID: 453241053}
+  timeHighScore: {fileID: 1204196530}
+  timeScore: {fileID: 1204196530}
 --- !u!114 &1204196530
 MonoBehaviour:
   m_ObjectHideFlags: 0

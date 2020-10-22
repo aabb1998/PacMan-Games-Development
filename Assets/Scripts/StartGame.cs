@@ -36,6 +36,11 @@ public class StartGame : MonoBehaviour
         StartGameA();
     }
 
+    IEnumerator Destroy() {
+        yield return new WaitForSeconds(time);
+        Destroy(startText);
+    }
+
 
  
     void StartGameA()

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Timers;
+using UnityEngine.UI;
+
 
 public class PacStudentController : MonoBehaviour
 {
@@ -15,6 +17,18 @@ public class PacStudentController : MonoBehaviour
     Vector2 dest = Vector2.zero;
     public float SpawnRate = 1f;
     private float DelayTimer = 5f;
+    public Text scoreText;
+    
+
+    private static int startingScore = 0;
+    private int currentScore = 0;
+
+    private static int pelletScore = 10;
+    private static int powerPelletScore = 50;
+    private static int powerCheeryScore = 100;
+
+    public int livesAmount = 3;
+    public int currentLives = 3;
 
     // Store the last key pressed by the user
     KeyCode lastInput;
@@ -24,14 +38,14 @@ public class PacStudentController : MonoBehaviour
     void Start()
     {
         dest = transform.position;
-        // animator = GetComponent<Animator>();
-        // StartCoroutine(DelayedAnimation());
+        currentScore = startingScore;
     }
 
-    // IEnumerator DelayedAnimation () {
-    //     yield return new WaitForSeconds(startDelay);
-    //     animator.Play("PacManAnim");
-    // }
+    public void increaseScore(int addScore) {
+        currentScore += addScore;
+        //timerText.text = minutes + ":" + seconds + ":" + ms;
+        scoreText.text = "Score: " + currentScore;
+    }
 
     void FixedUpdate() {
         // Move closer to Destination
@@ -62,26 +76,6 @@ public class PacStudentController : MonoBehaviour
         }
 
         print(lastInput);
-        // if (lastKey == KeyCode.W) {
-        //     print("W was pressed");
-        // }
-        // if (lastKey == KeyCode.D) {
-        //     print("D was pressed");
-        // }
-        // if (lastKey == KeyCode.S) {
-        //     print("S was pressed");
-        // }
-        // if (lastKey == KeyCode.A) {
-        //     print("A was pressed");
-        // }
-
-        // while (true) {
-        //     if ((Vector2)transform.position == dest) {
-        //         if (Input.GetKey(KeyCode.W) && valid(Vector2.up))
-        //             dest = (Vector2)transform.position + Vector2.up;
-        //             lastKey = KeyCode.W;
-        //     }
-        // }
 
         // Animation Parameters
         Vector2 dir = dest - (Vector2)transform.position;
@@ -90,10 +84,14 @@ public class PacStudentController : MonoBehaviour
     }
 
 
-        void OnTriggerEnter2D(Collider2D co) {
-        if (co.name == "pacman")
-            Destroy(co.gameObject);
+        void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.gameObject.CompareTag("pellet"))
+            print("HELLO");
+            Destroy(collision.gameObject);
+            increaseScore(pelletScore);
+
         }
+        
 
         bool valid(Vector2 dir) {
             Vector2 pos = transform.position;
