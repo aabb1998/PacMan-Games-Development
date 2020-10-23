@@ -19,6 +19,7 @@ public class PacStudentController : MonoBehaviour
     private float DelayTimer = 5f;
     public Text scoreText;
     
+    public ParticleSystem dust;
 
     private static int startingScore = 0;
     private int currentScore = 0;
@@ -51,6 +52,10 @@ public class PacStudentController : MonoBehaviour
         scoreText.text = "Score: " + currentScore;
     }
 
+    void CreateDust() {
+        dust.Play();
+    }
+
     void Update() {
         // Move closer to Destination
         Vector2 p = Vector2.MoveTowards(transform.position, dest, speed);
@@ -60,21 +65,28 @@ public class PacStudentController : MonoBehaviour
         if ((Vector2)transform.position == dest && Time.time > DelayTimer) {
             if (Input.GetKey(KeyCode.W) && valid(Vector2.up) && Time.time > DelayTimer)
                 dest = (Vector2)transform.position + Vector2.up;
+                CreateDust();
                 lastInput = KeyCode.W;
                 // print(lastKey);
             if (Input.GetKey(KeyCode.D) && valid(Vector2.right) && Time.time > DelayTimer)
                 dest = (Vector2)transform.position + Vector2.right;
                 lastInput = KeyCode.D;
+                              CreateDust();
+
                                 // print(lastKey);
 
             if (Input.GetKey(KeyCode.S) && valid(-Vector2.up) && Time.time > DelayTimer)
                 dest = (Vector2)transform.position - Vector2.up;
                 lastInput = KeyCode.S;
+                              CreateDust();
+
                                 // print(lastKey);
 
             if (Input.GetKey(KeyCode.A) && valid(-Vector2.right) && Time.time > DelayTimer)
                 dest = (Vector2)transform.position - Vector2.right;
                 lastInput = KeyCode.A;
+                                CreateDust();
+
                                 // print(lastKey);
 
         }

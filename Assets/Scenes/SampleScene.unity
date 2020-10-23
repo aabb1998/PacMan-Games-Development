@@ -2157,7 +2157,7 @@ PrefabInstance:
     - target: {fileID: 3387279635014422268, guid: 2edd67c5378db6946a5b784f659736c3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.57
+      value: -1.2
       objectReference: {fileID: 0}
     - target: {fileID: 3387279635014422268, guid: 2edd67c5378db6946a5b784f659736c3,
         type: 3}
@@ -11938,7 +11938,7 @@ ParticleSystem:
     rateOverDistance:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 10
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -12513,7 +12513,7 @@ ParticleSystem:
     flipU: 0
     flipV: 0
   VelocityModule:
-    enabled: 0
+    enabled: 1
     x:
       serializedVersion: 2
       minMaxState: 0
@@ -15728,7 +15728,7 @@ Transform:
   m_GameObject: {fileID: 810377565}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1222606452}
   m_RootOrder: 0
@@ -20232,7 +20232,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.807001, y: 0.87594235}
+  m_Offset: {x: -0.7929475, y: 0.87594235}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -20243,7 +20243,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.355932, y: 0.27877522}
+  m_Size: {x: 0.32782495, y: 0.27877522}
   m_EdgeRadius: 0
 --- !u!61 &1136472808
 BoxCollider2D:
@@ -20310,7 +20310,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.8050798, y: 0.60099137}
+  m_Offset: {x: -0.7919632, y: 0.60099137}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -20321,7 +20321,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.35922688, y: 0.20166111}
+  m_Size: {x: 0.3329937, y: 0.20166111}
   m_EdgeRadius: 0
 --- !u!61 &1136472811
 BoxCollider2D:
@@ -22218,6 +22218,7 @@ MonoBehaviour:
   startDelay: 3
   SpawnRate: 1
   scoreText: {fileID: 2084990962}
+  dust: {fileID: 810377567}
   livesAmount: 3
   currentLives: 3
   pelletEat: {fileID: 8300000, guid: 824a17241ab8e204b942db038cc64500, type: 3}
