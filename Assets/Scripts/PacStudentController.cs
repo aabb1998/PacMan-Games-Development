@@ -26,7 +26,7 @@ public class PacStudentController : MonoBehaviour
 
     private static int pelletScore = 10;
     private static int powerPelletScore = 50;
-    private static int powerCheeryScore = 100;
+    private static int powerCherryScore = 100;
 
     public int livesAmount = 3;
     public int currentLives = 3;
@@ -101,11 +101,24 @@ public class PacStudentController : MonoBehaviour
 
 
         void OnCollisionEnter2D(Collision2D collision) {
-        if (collision.gameObject.CompareTag("pellet")) 
+        if (collision.gameObject.CompareTag("pellet")) {
             print("HELLO");
             Destroy(collision.gameObject);
             increaseScore(pelletScore);
             source.PlayOneShot(pelletEat,0.3f);
+        }
+
+        if (collision.gameObject.CompareTag("powerpellet")) {
+            print("powerpellet");
+            Destroy(collision.gameObject);
+            increaseScore(powerPelletScore);
+            
+        }
+        if (collision.gameObject.CompareTag("cherry")) {
+            print("Cherry");
+            Destroy(collision.gameObject);
+            increaseScore(powerCherryScore);
+        }
 
         } 
         

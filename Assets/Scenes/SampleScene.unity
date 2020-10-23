@@ -165,6 +165,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -347,6 +352,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -503,6 +513,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -606,6 +621,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -769,6 +789,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -848,6 +873,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -972,6 +1002,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -1109,7 +1144,7 @@ GameObject:
   - component: {fileID: 118592026}
   - component: {fileID: 118592025}
   - component: {fileID: 118592024}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Ghost2Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1127,14 +1162,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.083333336, y: 0.083333336, z: 1}
   m_Children:
-  - {fileID: 395054019}
+  - {fileID: 1333346401}
   m_Father: {fileID: 1745929772}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 9.84, y: -10.6}
-  m_SizeDelta: {x: 270, y: 152}
+  m_AnchoredPosition: {x: 1.94, y: -5.9}
+  m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &118592024
 MonoBehaviour:
@@ -1213,6 +1248,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -1332,6 +1372,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1411,6 +1456,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -1530,6 +1580,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1647,6 +1702,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (203)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -1792,6 +1852,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1871,6 +1936,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -1984,6 +2054,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2063,6 +2138,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (128)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -2243,6 +2323,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2322,6 +2407,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -2438,6 +2528,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -2583,6 +2678,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2727,6 +2827,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2806,6 +2911,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (117)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -2957,6 +3067,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3043,6 +3158,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (126)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3123,6 +3243,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3202,6 +3327,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -3359,6 +3489,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3512,6 +3647,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (207)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -3689,6 +3829,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3772,7 +3917,7 @@ PrefabInstance:
     - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_TagString
-      value: pacman
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -3854,6 +3999,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3933,6 +4083,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -4321,6 +4476,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (186)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4438,6 +4598,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (211)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -4621,6 +4786,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4738,6 +4908,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -4863,6 +5038,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4943,6 +5123,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5022,6 +5207,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (129)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -5134,6 +5324,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -5253,6 +5448,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5339,6 +5539,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5418,6 +5623,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (121)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -5531,6 +5741,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5599,83 +5814,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 3396608794683358964, guid: 708939a9502c1484bb4576894d5d701b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 708939a9502c1484bb4576894d5d701b, type: 3}
---- !u!1 &395054018
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 395054019}
-  - component: {fileID: 395054021}
-  - component: {fileID: 395054020}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &395054019
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 395054018}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 118592023}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &395054020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 395054018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 2
---- !u!222 &395054021
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 395054018}
-  m_CullTransparentMesh: 0
 --- !u!1001 &398449813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5687,6 +5825,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (176)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -5767,6 +5910,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (204)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -5891,6 +6039,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -6071,6 +6224,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (127)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -6294,6 +6452,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (197)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6385,6 +6548,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -6545,7 +6713,7 @@ PrefabInstance:
     - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_TagString
-      value: pacman
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -6734,6 +6902,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -6926,6 +7099,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -7265,7 +7443,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lerpTime: 4
   myPositions: []
-  Timer: 5
+  Timer: 30
   cherry: {fileID: 2766133014910446117, guid: 26a51cae12d6b0b45996f8b883e51d78, type: 3}
 --- !u!114 &519420037
 MonoBehaviour:
@@ -7305,6 +7483,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -7391,6 +7574,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -7510,6 +7698,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (124)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7589,6 +7782,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -7707,6 +7905,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -7886,6 +8089,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7965,6 +8173,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -8084,6 +8297,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8163,6 +8381,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (129)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -8365,6 +8588,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8444,6 +8672,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (199)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -8537,6 +8770,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (196)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8616,6 +8854,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -8728,6 +8971,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (206)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -8897,14 +9145,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.083333336, y: 0.083333336, z: 1}
   m_Children:
-  - {fileID: 695008022}
+  - {fileID: 692581751}
   m_Father: {fileID: 1969453839}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -6.66, y: 11.48}
-  m_SizeDelta: {x: 270, y: 152}
+  m_AnchoredPosition: {x: 0.06, y: 0.01}
+  m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &634060298
 MonoBehaviour:
@@ -9048,6 +9296,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (205)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9160,6 +9413,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9239,6 +9497,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -9352,6 +9615,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9438,6 +9706,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9523,6 +9796,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -9648,6 +9926,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9750,8 +10033,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -17.9, y: -21.9}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 23.2, y: 19.5}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &683216377
 MonoBehaviour:
@@ -9766,17 +10049,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 5
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 5
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -9793,6 +10076,83 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 683216375}
   m_CullTransparentMesh: 0
+--- !u!1 &692581750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 692581751}
+  - component: {fileID: 692581753}
+  - component: {fileID: 692581752}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &692581751
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692581750}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 634060297}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 2.3, y: 2.2}
+  m_SizeDelta: {x: 10, y: 10}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &692581752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692581750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 5
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 1
+--- !u!222 &692581753
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692581750}
+  m_CullTransparentMesh: 0
 --- !u!1001 &694266054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9804,6 +10164,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -9873,85 +10238,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 3396608794683358964, guid: 708939a9502c1484bb4576894d5d701b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 708939a9502c1484bb4576894d5d701b, type: 3}
---- !u!1 &695008021
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 695008022}
-  - component: {fileID: 695008024}
-  - component: {fileID: 695008023}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &695008022
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 695008021}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 634060297}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.22200002, y: 0.27076232}
-  m_AnchorMax: {x: 0.2348562, y: 0.2874342}
-  m_AnchoredPosition: {x: -22.36, y: 1.0600014}
-  m_SizeDelta: {x: 6.55, y: 4.62}
-  m_Pivot: {x: 0.5222415, y: -0.7539942}
---- !u!114 &695008023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 695008021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: '1
-
-'
---- !u!222 &695008024
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 695008021}
-  m_CullTransparentMesh: 0
 --- !u!4 &707498769 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
@@ -10007,6 +10293,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (202)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -10088,6 +10379,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10167,6 +10463,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -10258,6 +10559,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: powerpellet
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428898258247148828, guid: 1285274a1a7e44e42a0240862e8d9dcc,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4941165947524525278, guid: 1285274a1a7e44e42a0240862e8d9dcc,
         type: 3}
@@ -10408,6 +10714,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10487,6 +10798,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -10599,6 +10915,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -10825,6 +11146,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -15783,6 +16109,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15933,6 +16264,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16075,6 +16411,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16161,6 +16502,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16240,6 +16586,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -16385,6 +16736,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (212)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16470,6 +16826,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -16715,6 +17076,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16833,6 +17199,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16913,6 +17284,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (125)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16992,6 +17368,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -17163,6 +17544,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (183)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17242,6 +17628,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -17352,6 +17743,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (213)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -17465,6 +17861,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17549,6 +17950,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: powerpellet
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428898258247148828, guid: 1285274a1a7e44e42a0240862e8d9dcc,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4941165947524525278, guid: 1285274a1a7e44e42a0240862e8d9dcc,
         type: 3}
@@ -17679,6 +18085,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (201)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17790,6 +18201,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -17940,6 +18356,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (111)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -18129,6 +18550,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18227,6 +18653,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18312,6 +18743,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -18399,6 +18835,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18484,6 +18925,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (184)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -18571,6 +19017,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18650,6 +19101,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -18800,6 +19256,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (178)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -18965,7 +19426,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049799053}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.61, y: -80.04, z: 10}
+  m_LocalPosition: {x: -7.61, y: -81.4, z: 10}
   m_LocalScale: {x: 12, y: 12, z: 1}
   m_Children:
   - {fileID: 1767251422}
@@ -18983,6 +19444,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -19128,6 +19594,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19272,6 +19743,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19358,6 +19834,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19438,6 +19919,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (177)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19517,6 +20003,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -19797,6 +20288,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19947,6 +20443,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (182)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20026,6 +20527,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -21451,6 +21957,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21530,6 +22041,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -21725,6 +22241,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21811,6 +22332,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21890,6 +22416,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -21995,6 +22526,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22074,6 +22610,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -22558,6 +23099,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22687,6 +23233,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -23042,6 +23593,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23122,6 +23678,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23201,6 +23762,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -23293,6 +23859,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (198)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -23616,6 +24187,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23684,6 +24260,83 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 3396608794683358964, guid: 708939a9502c1484bb4576894d5d701b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 708939a9502c1484bb4576894d5d701b, type: 3}
+--- !u!1 &1333346400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1333346401}
+  - component: {fileID: 1333346403}
+  - component: {fileID: 1333346402}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1333346401
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333346400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 118592023}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 52.79}
+  m_SizeDelta: {x: 50, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1333346402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333346400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 5
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 5
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 2
+--- !u!222 &1333346403
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333346400}
+  m_CullTransparentMesh: 0
 --- !u!4 &1339282567 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
@@ -23701,6 +24354,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -23781,6 +24439,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -23900,6 +24563,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24004,7 +24672,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -19.28, y: -3.08}
+  m_AnchoredPosition: {x: 0.05, y: -3.08}
   m_SizeDelta: {x: 270, y: 152}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1362147335
@@ -24143,6 +24811,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24278,6 +24951,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (112)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -24435,6 +25113,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (126)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24590,6 +25273,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -24797,6 +25485,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -25042,6 +25735,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25128,6 +25826,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25207,6 +25910,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (117)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -25440,6 +26148,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25519,6 +26232,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (120)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -25600,6 +26318,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25679,6 +26402,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -25804,6 +26532,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25896,6 +26629,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25976,6 +26714,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26055,6 +26798,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -26168,6 +26916,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26279,6 +27032,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -26524,6 +27282,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26603,6 +27366,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -26689,6 +27457,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -27023,6 +27796,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (120)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27102,6 +27880,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (200)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -27226,6 +28009,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: powerpellet
       objectReference: {fileID: 0}
+    - target: {fileID: 2428898258247148828, guid: 1285274a1a7e44e42a0240862e8d9dcc,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4941165947524525278, guid: 1285274a1a7e44e42a0240862e8d9dcc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27310,6 +28098,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (195)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -27435,6 +28228,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27514,6 +28312,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -27755,7 +28558,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1604798002}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.8, y: -79.91956, z: 10}
+  m_LocalPosition: {x: 0.8, y: -81.5, z: 10}
   m_LocalScale: {x: 12, y: 12, z: 1}
   m_Children:
   - {fileID: 1362147334}
@@ -27823,6 +28626,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -27941,6 +28749,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -28127,6 +28940,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28206,6 +29024,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -28363,6 +29186,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (180)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28480,7 +29308,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1655962263
 RectTransform:
   m_ObjectHideFlags: 0
@@ -28531,7 +29359,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Ghost''s are Scared!: 00:00'
+  m_Text: 'Ghost: 00:00'
 --- !u!222 &1655962265
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28615,6 +29443,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (125)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -28916,8 +29749,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -241.8, y: 112.5}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 289.3, y: 104.6}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1682420335
 MonoBehaviour:
@@ -28932,17 +29765,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 5
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 5
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -28970,6 +29803,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -29051,6 +29889,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (124)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29130,6 +29973,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -29243,6 +30091,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29322,6 +30175,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -29408,6 +30266,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -29520,6 +30383,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -29767,7 +30635,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745929769}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.76, y: -79.92, z: 10}
+  m_LocalPosition: {x: -11.76, y: -81.4, z: 10}
   m_LocalScale: {x: 12, y: 12, z: 1}
   m_Children:
   - {fileID: 118592023}
@@ -29855,6 +30723,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -29978,7 +30851,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -23.66, y: 12.46}
+  m_AnchoredPosition: {x: -22.11, y: -10.2}
   m_SizeDelta: {x: 270, y: 152}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1767251423
@@ -30149,6 +31022,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30261,6 +31139,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30340,6 +31223,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (116)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -30465,6 +31353,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30544,6 +31437,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -30694,6 +31592,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -30901,6 +31804,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30981,6 +31889,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31060,6 +31973,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -31172,6 +32090,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -31328,6 +32251,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -31537,6 +32465,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31629,6 +32562,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31714,6 +32652,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -31891,7 +32834,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1969453836}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.16, y: -79.99, z: 10}
+  m_LocalPosition: {x: -2.8, y: -81.4, z: 10}
   m_LocalScale: {x: 12, y: 12, z: 1}
   m_Children:
   - {fileID: 634060297}
@@ -31909,6 +32852,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -31989,6 +32937,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -32075,6 +33028,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (128)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -32188,6 +33146,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32267,6 +33230,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -32380,6 +33348,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32459,6 +33432,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -32545,6 +33523,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -32727,6 +33710,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: powerpellet
       objectReference: {fileID: 0}
+    - target: {fileID: 2428898258247148828, guid: 1285274a1a7e44e42a0240862e8d9dcc,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4941165947524525278, guid: 1285274a1a7e44e42a0240862e8d9dcc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32805,6 +33793,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (104)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -33012,6 +34005,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33124,6 +34122,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33235,6 +34238,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -33372,7 +34380,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Score:'
+  m_Text: 'Score: 0'
 --- !u!222 &2084990963
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -33575,6 +34583,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (127)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33655,6 +34668,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33734,6 +34752,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
@@ -33879,6 +34902,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: standardPellet (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
+      objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33958,6 +34986,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: standardPellet (185)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360225797773272179, guid: 708939a9502c1484bb4576894d5d701b,
+        type: 3}
+      propertyPath: m_TagString
+      value: pellet
       objectReference: {fileID: 0}
     - target: {fileID: 7438032469806244243, guid: 708939a9502c1484bb4576894d5d701b,
         type: 3}

@@ -27,8 +27,8 @@ public class CherryController : MonoBehaviour
     {
         Timer -= Time.deltaTime;
         if (Timer <= 0) {
-            Rigidbody cherryClone;
-            cherryClone =((GameObject)Instantiate(cherry,(new Vector3 (-34,42,10)), transform.rotation)).GetComponent<Rigidbody>();
+            Rigidbody2D cherryClone;
+            cherryClone =((GameObject)Instantiate(cherry,(new Vector3 (-34,42,10)), transform.rotation)).GetComponent<Rigidbody2D>();
             cherryClone.AddForce(cherrySpeed);
             Timer = 30;
             // transform.position = Vector3.Lerp(transform.position, myPositions[posIndex], lerpTime * Time.deltaTime);
