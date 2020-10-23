@@ -10,8 +10,10 @@ public class HighScore : MonoBehaviour
     public Text timeScore;
 
 
+
+
     void Start() {
-        highScore.text = "Score: " + PlayerPrefs.GetInt("Highscore", 30).ToString();
+        highScore.text = "Score: " + PlayerPrefs.GetInt("Highscore", 130).ToString();
         timeHighScore.text = "Time: " + PlayerPrefs.GetString("Timescore", "01:12:23").ToString();
         
 
